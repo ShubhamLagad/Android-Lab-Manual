@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/mca"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="radioBtnClick"
+            android:text="MCA"
+            android:textSize="18sp" />
+
+        <RadioButton
+            android:id="@+id/mba"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="radioBtnClick"
+            android:text="MBA"
+            android:textSize="18sp" />
+
+        <RadioButton
+            android:id="@+id/mteck"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="radioBtnClick"
+            android:text="MTech"
+            android:textSize="18sp" />
+
+        <RadioButton
+            android:id="@+id/mcom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="radioBtnClick"
+            android:text="MCom"
+            android:textSize="18sp" />
+    </RadioGroup>
+
+</LinearLayout>
